@@ -13,6 +13,6 @@ jobs:
       run: pwd
 
 
-    - name: 'Testing Printing'
-      run: echo nada
+    - name: 'Printing folder contents'
+      run: ls 
 
