@@ -22,4 +22,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: nadaezzat12/NadaEzzat_2023040401:latest
+        tags: nadaezzat12/nadaezzat_2023040401:latest
