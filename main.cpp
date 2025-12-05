@@ -1,14 +1,16 @@
-// main.cpp
 #include <iostream>
 #include <thread>
 #include <chrono>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hi from Nada Ezzat! Student ID: 2023040401\n";
-    std::cout << "Container will stay running so you can show it in docker ps.\n";
-    // keep the process alive
+    cout << "Hi from Nada Ezzat! Student ID: 2023040401\n";
+    cout << "Container is running. Check with 'docker ps'.\n";
+
     while (true) {
-        std::this_thread::sleep_for(std::chrono::hours(1));
+        this_thread::sleep_for(chrono::hours(1));
     }
+
     return 0;
 }
